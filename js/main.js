@@ -98,7 +98,7 @@
         thumbs: !1,
         thumbsPrerendered: !1,
         center: !1,
-        margin: 50,
+        margin: 30,
         items: 1,
       }),
         t(".vision-changebg").owlCarousel({
@@ -140,7 +140,8 @@
             576: { items: 1, margin: 0, nav: !1 },
             768: { items: 2 },
             992: { items: 3 },
-            1400: { items: 2 },
+            1400: { items: 3 },
+            2500: { items: 4 }
           },
         }),
         t(".client-carousel").owlCarousel({
@@ -152,7 +153,7 @@
           nav: !1,
           dots: !1,
           center: !1,
-          margin: 20,
+          margin: 30,
           responsive: {
             0: { items: 2 },
             481: { items: 2 },

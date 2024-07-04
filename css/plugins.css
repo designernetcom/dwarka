@@ -8279,7 +8279,7 @@ fieldset:disabled .btn {
 }
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(rgb(227 227 227), var(--bs-text-opacity)) !important;
 }
 .text-success {
   --bs-text-opacity: 1;
@@ -23520,6 +23520,7 @@ img.mfp-img {
   margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent;
+  display: none;
 }
 .owl-theme .owl-nav [class*="owl-"] {
   color: #fff;
@@ -25153,8 +25154,11 @@ h6 a,
 .bg-black-opacity-light {
   background-color: rgba(0, 0, 0, 0.5);
 }
+.about-style-03{
+  padding: 90px 0 20px 0px;
+}
 section {
-  padding: 90px 0;
+  padding: 90px 0 ;
   overflow: hidden;
   background: #fff;
   position: relative;
@@ -25218,7 +25222,7 @@ section.md {
   z-index: 1;
 }
 [data-overlay-dark]:before {
-  background: #2e0813;
+  /* background: #2e0813; */
 }
 [data-overlay-light]:before {
   background: #fff;
@@ -31442,7 +31446,7 @@ section.md {
   }
   .mb-md-6,
   .my-md-6 {
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
   }
   .mb-md-7,
   .my-md-7 {
@@ -34804,7 +34808,7 @@ section.md {
     width: auto;
   }
   .display-xl-1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .display-xl-2 {
     font-size: 5.5rem;
@@ -39037,7 +39041,7 @@ section.md {
 }
 @media (max-width: 1199px) {
   section {
-    padding: 90px 0;
+    padding: 90px 0 30px;
   }
   section.md {
     padding: 70px 0;
@@ -39347,6 +39351,20 @@ section.md {
   .parallax {
     background-attachment: inherit;
     background-position: center;
+  }
+  .card-body h4{
+    font-size: 23px;
+  }
+  .icon-holder i {
+    font-size: 59px !important;
+    line-height: 60px ;
+  }
+  .px-3 {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+  }
+  .footer-link li a,p {
+    font-size: 13px;
   }
 }
 header {
