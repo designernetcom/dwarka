@@ -25747,7 +25747,7 @@ section.md {
   position: relative;
   background-size: cover;
   overflow: hidden;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .fix-background {
   position: relative;
@@ -34214,7 +34214,7 @@ section.md {
   }
   .pt-lg-20,
   .py-lg-20 {
-    padding-top: 10.5rem;
+    padding-top: 18.5rem;
   }
   .pt-lg-21,
   .py-lg-21 {
@@ -40472,9 +40472,19 @@ pre[class*="language-"] {
 .token.entity {
   cursor: help;
 }
+@media screen and (min-width: 1600px) {
+  .pbanner-top{
+    padding-top: 233px;
+    padding-bottom: 495px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .top-bar {
     display: none !important;
+  }
+  .pbanner-top{
+    padding-top: 98px;
   }
     .bright {
       border-right: none !important;
@@ -40494,4 +40504,11 @@ pre[class*="language-"] {
     font-size: 2rem !important;
 }
 
+}
+
+@media (min-width:708px) and (max-width:990px){
+  .pbanner-top{
+    padding-top: 170px;
+    padding-bottom: 140px;
+  }
 }
